@@ -2,7 +2,7 @@
 .title,
 .subtitle,
 .footer-text {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -71,9 +71,80 @@ hr {
 }
 
 .body-text {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 20px;
   text-align: left;
   color: #333333;
+}
+
+
+
+.top-grey-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  padding-bottom: 12px;
+  color: #666666;
+}
+
+a {
+  color: #006699;
+}
+
+a:hover {
+  color: #0099cc;
+}
+
+.logo-image {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+.logo-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  color: #999999;
+}
+
+.banner-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 27px;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 20px;
+}
+
+.banner-description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 21px;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.banner-button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.banner-button:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #cc0000;
 }

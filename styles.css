@@ -230,3 +230,15 @@ a:hover {
   padding-bottom: 20px;
 }
 
+.person-avatar-container {
+  width: 209px;
+  height: 214px;
+  margin: 0 auto;
+
+}
+
+.person-avatar-container img {
+  width: 100%;
+  height: 100%;
+}
+

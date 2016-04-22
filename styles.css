@@ -222,3 +222,11 @@ a:hover {
   padding-bottom: 40px;
 }
 
+.footer-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+

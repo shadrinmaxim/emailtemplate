@@ -31,6 +31,15 @@
   padding-right: 24px;
 }
 
+.person-padding-left {
+  padding-left: 48px;
+}
+
+.person-padding-right {
+  padding-left: 48px;
+  padding-right: 54px;
+}
+
 .content {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -55,9 +64,10 @@ hr {
 }
 
 .title {
-  font-size: 18px;
-  font-weight: 600;
-  color: #374550;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 28px;
+  color: #333333;
 }
 
 .subtitle {
@@ -72,19 +82,22 @@ hr {
 
 .body-text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 22px;
   text-align: left;
   color: #333333;
 }
 
-
-
 .top-grey-text {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   padding-bottom: 12px;
   color: #666666;
+}
+
+.top-grey-text-left
+{
+  padding-right: 35px;
 }
 
 a {
@@ -148,3 +161,64 @@ a:hover {
   text-decoration: none;
   background-color: #cc0000;
 }
+
+.banner-button-red {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  background-color: #e44634;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.banner-button-red:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #a5130c;
+}
+
+.content-link {
+  color: #e44634;
+  text-decoration: none;
+}
+
+.content-link:hover {
+  color: #e44634;
+  text-decoration: underline;
+}
+
+.person-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  text-align: left;
+  color: #333333;
+  padding-top: 90px;
+  padding-bottom: 10px;
+}
+
+.person-sign {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  text-align: left;
+  color: #333333;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.contacts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: #333333;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+

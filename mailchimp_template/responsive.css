@@ -58,11 +58,12 @@ img {
     padding-left:12px !important;
   }
 .person-padding-left {
-  padding:0;
+  padding:40px 0 0;
   width: 50%;
 }
 .person-avatar-container {
-  width: 90% !important;
+  width: 90%;
+  max-width: 209px;
   height: auto;
 }
 .person-padding-right {
@@ -78,8 +79,17 @@ img {
 .footer-links {
   font-size: 11px;
 }
+.rocket-img-container img {
+    width: 200px;
+    height: auto;
+  }
 
+}
 
+@media screen and (max-width: 499px) {
+  .rocket-img-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {

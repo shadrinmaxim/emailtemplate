@@ -31,10 +31,6 @@
   padding-right: 24px;
 }
 
-.person-padding-left {
-  padding-left: 48px;
-}
-
 .person-padding-right {
   padding-left: 48px;
   padding-right: 54px;
@@ -142,74 +138,27 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.banner-button {
+.button, 
+.button a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 14px;
-  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.button td {
   border: 1px solid #ffffff;
-  text-align: center;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #ffffff;
 }
 
-.banner-button:hover {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: #cc0000;
+.banner-button-red td {
+  background: #cc3333;
 }
-
-.banner-button-red {
-  display: inline-block;
-  background-color: #e44634;
-  text-align: center;
-  border: 1px solid #ffffff;
-  padding: 10px 15px;
-  cursor: pointer;
-  color: #ffffff;
-}
-
-.banner-button-red:hover {
-  background-color: #a5130c;
-}
-
-.banner-button-red a {
-  color: #ffffff;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.banner-button-red a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.button {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  display: inline-block;
-  text-align: center;
-  background: #000000;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-}
-
-.button span {
-  display: inline-block;
-  background: #000000;
-  color: #ffffff;
-  margin: 20px 40px;
-}
-
-.button span a {
-  display: inline-block;
-  color: white;
-  white-space: nowrap;
-  text-decoration: none;
-}
-
 
 .content-link {
   color: #e44634;
@@ -228,8 +177,8 @@ a:hover {
   line-height: 18px;
   text-align: left;
   color: #333333;
-  padding-top: 90px;
-  padding-bottom: 10px;
+  margin-top: 90px;
+  margin-bottom: 10px;
 }
 
 .person-sign {
@@ -239,8 +188,8 @@ a:hover {
   line-height: 18px;
   text-align: left;
   color: #333333;
-  padding-top: 10px;
-  padding-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .contacts {
@@ -248,8 +197,8 @@ a:hover {
   font-size: 12px;
   text-align: left;
   color: #333333;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .footer-links {
@@ -263,7 +212,7 @@ a:hover {
 .person-avatar-container {
   width: 209px;
   height: 214px;
-  margin: 0 auto;
+  margin-left: 48px;
 
 }
 

@@ -109,9 +109,8 @@ a:hover {
 }
 
 .logo-image {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .logo-title {
@@ -129,18 +128,18 @@ a:hover {
   line-height: 27px;
   text-align: left;
   color: #ffffff;
-  padding-top: 24px;
-  padding-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 20px;
 }
 
 .banner-description {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  font-weight: regular;
+  font-weight: normal;
   line-height: 21px;
   text-align: left;
   color: #ffffff;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .banner-button {
@@ -153,7 +152,6 @@ a:hover {
   padding: 10px 15px;
   text-decoration: none;
   color: #ffffff;
-  margin-bottom: 24px;
 }
 
 .banner-button:hover {
@@ -163,23 +161,55 @@ a:hover {
 }
 
 .banner-button-red {
+  display: inline-block;
+  background-color: #e44634;
+  text-align: center;
+  border: 1px solid #ffffff;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.banner-button-red:hover {
+  background-color: #a5130c;
+}
+
+.banner-button-red a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.banner-button-red a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 14px;
   display: inline-block;
-  background-color: #e44634;
   text-align: center;
-  padding: 10px 15px;
-  text-decoration: none;
+  background: #000000;
+  border: 1px solid #ffffff;
   color: #ffffff;
-  margin-bottom: 24px;
 }
 
-.banner-button-red:hover {
+.button span {
+  display: inline-block;
+  background: #000000;
   color: #ffffff;
-  text-decoration: none;
-  background-color: #a5130c;
+  margin: 20px 40px;
 }
+
+.button span a {
+  display: inline-block;
+  color: white;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
 
 .content-link {
   color: #e44634;
